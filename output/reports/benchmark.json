@@ -1,0 +1,44 @@
+[
+  {
+    "motor": "pandas",
+    "escala": "pequena",
+    "segundos": 3.0,
+    "pico_gb": 1.22,
+    "concluiu": true
+  },
+  {
+    "motor": "spark",
+    "escala": "pequena",
+    "segundos": 8.4,
+    "pico_gb": 2.36,
+    "concluiu": true
+  },
+  {
+    "motor": "pandas",
+    "escala": "media",
+    "segundos": 18.1,
+    "pico_gb": 5.69,
+    "concluiu": true
+  },
+  {
+    "motor": "spark",
+    "escala": "media",
+    "segundos": 18.4,
+    "pico_gb": 5.35,
+    "concluiu": true
+  },
+  {
+    "motor": "pandas",
+    "escala": "grande",
+    "segundos": 140.6,
+    "pico_gb": 9.57,
+    "concluiu": true
+  },
+  {
+    "motor": "spark",
+    "escala": "grande",
+    "segundos": 68.8,
+    "pico_gb": 6.65,
+    "concluiu": true
+  }
+]

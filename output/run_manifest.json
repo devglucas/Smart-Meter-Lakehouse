@@ -1,0 +1,91 @@
+{
+  "executado_em": "2026-11-07T04:57:20+00:00",
+  "escala": "media",
+  "sucesso": true,
+  "duracao_s": 148.8,
+  "arquivos_novos": 360,
+  "resumo": {
+    "fraudes_reais": 69,
+    "suspeitos": 69,
+    "acertos": 69,
+    "precisao": 1.0,
+    "recall": 1.0,
+    "motivos": {
+      "pico_de_leitura": 2634,
+      "linha_malformada": 361
+    },
+    "situacoes": {
+      "troca_de_medidor": 10,
+      "normal": 17232435,
+      "virada_de_registrador": 16
+    },
+    "alimentadores_com_fraude": [
+      "AL009",
+      "AL033",
+      "AL017",
+      "AL018",
+      "AL020"
+    ],
+    "perda_tecnica_media": 0.0598691496640934,
+    "linhas_bronze": 17751765,
+    "leituras_silver": 17235095
+  },
+  "indicadores": {
+    "kwh_medido": 7273881.437,
+    "kwh_injetado": 7792921.024999999,
+    "receita": 5132875.881739998,
+    "perda_geral": 0.06660398409465462,
+    "perda_alimentadores_com_fraude": 0.13638223322602694,
+    "perda_demais": 0.0597058587804391,
+    "interrupcoes": 80,
+    "dec_horas": 4.711125,
+    "fec": 2.0045
+  },
+  "compactacao": {
+    "antes": {
+      "arquivos": 96,
+      "consulta_s": 0.28870166699925903
+    },
+    "depois": {
+      "arquivos": 90,
+      "consulta_s": 0.197614666998561
+    }
+  },
+  "historico_silver": [
+    {
+      "versao": 0,
+      "operacao": "WRITE",
+      "linhas_inseridas": null
+    },
+    {
+      "versao": 1,
+      "operacao": "ADD CONSTRAINT",
+      "linhas_inseridas": null
+    },
+    {
+      "versao": 2,
+      "operacao": "MERGE",
+      "linhas_inseridas": "5930633"
+    },
+    {
+      "versao": 3,
+      "operacao": "MERGE",
+      "linhas_inseridas": "5747535"
+    },
+    {
+      "versao": 4,
+      "operacao": "MERGE",
+      "linhas_inseridas": "5556927"
+    },
+    {
+      "versao": 5,
+      "operacao": "OPTIMIZE",
+      "linhas_inseridas": null
+    }
+  ],
+  "verificacoes": {
+    "total": 11,
+    "criticas_com_falha": 0,
+    "alertas": 0
+  }
+}
