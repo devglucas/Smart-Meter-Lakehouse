@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Segredos: nunca versionar
+.env
+
+# Dados gerados e lakehouse (recriados pelo gerador e pelo main.py)
+data/
+spark-warehouse/
+metastore_db/
+derby.log
+.databricks/
+output/logs/
+
+# SO / editores
+.DS_Store
+.vscode/
+.idea/
